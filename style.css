@@ -6,7 +6,9 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 }
-
+#main_div{
+    width: 1519px;
+}
 .half_of_the_section{
     width: 40%;
     float: left;
