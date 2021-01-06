@@ -1,0 +1,154 @@
+body{
+    background-color: blue;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background:url("images/Portrait.jpg"),linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.half_of_the_section{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 0%;
+}
+.fst_img{
+    width: 56%;
+    /* margin: -9px; */
+    margin-left: 150px;
+    margin-top: 85px;
+}
+.section2image {
+    width: 56%;
+    /* margin: -9px; */
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.name {
+    color: #797a34;
+    text-shadow: 0px 11px 10px rgb(196 144 26 / 80%);
+}
+
+h1{
+    font-size: 50px;
+    font-weight:49%;
+    margin: 0;
+}
+h2{
+    font-size:30px;
+}
+p{
+    color: #320b05;
+    font-size: larger;
+    text-align: justify;
+}
+.span {
+    font-size: 22px;
+    color: rgb(117, 71, 6);
+}
+.fh1{
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.button {
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #a79d98, #24100c);
+    padding: 10px 20px;
+    color: red;
+    background-color: #d7bfbf;
+    text-decoration: none;
+}
+.italic {
+    font-size: 22px;
+    font-weight: bold;
+    /* margin-bottom: 15px; */
+    font-style: italic;
+}
+.first_section {
+    height: 600px;
+}
+.second_section{
+    height: 473px;
+}
+.edit_second_section_second_part{
+    margin-left: 50px;
+}
+
+#bigheader {
+    text-align: center;
+    height: 200px;
+    color: #343429;
+    text-shadow: 0px 11px 10px rgb(196 144 26 / 80%);
+    font-size: 50px;
+}
+.border {
+    width: 100%;
+    border: 1px solid #848484;
+    border-radius: 8px;
+}
+.section3 {
+    height: 500px;
+    margin-left: 150px;
+    
+}
+.section3div {
+    width: 300px;
+    float: left;
+    padding: 25px;
+    margin: 22px;
+    /* border: 15px solid rgb(204, 140, 140); */
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 7px;
+    height: 92%;
+    background-color: #f6f6eff5;
+}
+.work_inquiry {
+    margin: 15%;
+    border: 3px solid #c4b8b8;
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 1053px;
+    height: 190px;
+    border-radius: 30px;
+    margin-bottom: 130px;
+    background-blend-mode: multiply;
+    /* background-color: #c8c8d1; */
+    background-color: #538053;
+}
+.inquiry {
+    float: left;
+    margin: 5%;
+    color: #f1ebea;
+}
+
+.lets_chat {
+    text-align: right;
+    margin-left: 75%;
+}
+.chat {
+    display: block;
+    width: 113px;
+    /* margin-right: 22%; */
+    /* margin-top: 45%; */
+    /* margin: 35%; */
+    padding: 8%;
+    margin-top: 23%;
+    font-size: large;
+    border-radius: 6%;
+    text-align: center;
+    color: #4242c2;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #b09e95, #8782e5);
+    text-decoration: none;
+}
+
+.footer p{
+    text-align: center;
+}
+/*
+**section -height: 500px;
+*background-color: linear-gradient(45deg,rgb(231, 197, 197),rgb(27, 31, 27),);
