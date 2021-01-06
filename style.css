@@ -150,6 +150,12 @@ p{
 
 .footer p{
     text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.footer a{
+    
+    font-weight: bold;
 }
 /*
 **section -height: 500px;
