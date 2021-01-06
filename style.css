@@ -17,13 +17,11 @@ body{
 }
 .fst_img{
     width: 56%;
-    /* margin: -9px; */
     margin-left: 150px;
     margin-top: 85px;
 }
 .section2image {
     width: 56%;
-    /* margin: -9px; */
     margin-left: 0px;
     margin-top: 50px;
 }
@@ -31,7 +29,6 @@ body{
     color: #797a34;
     text-shadow: 0px 11px 10px rgb(196 144 26 / 80%);
 }
-
 h1{
     font-size: 50px;
     font-weight:49%;
@@ -53,7 +50,6 @@ p{
     margin-top: 60px;
     margin-bottom: 15px;
 }
-
 .button {
     font-weight: bold;
     background-image: linear-gradient(45deg, #a79d98, #24100c);
@@ -65,7 +61,6 @@ p{
 .italic {
     font-size: 22px;
     font-weight: bold;
-    /* margin-bottom: 15px; */
     font-style: italic;
 }
 .first_section {
@@ -77,7 +72,6 @@ p{
 .edit_second_section_second_part{
     margin-left: 50px;
 }
-
 #bigheader {
     text-align: center;
     height: 200px;
@@ -90,10 +84,12 @@ p{
     border: 1px solid #848484;
     border-radius: 8px;
 }
+.style{
+    color: #840d0d;
+}
 .section3 {
     height: 500px;
     margin-left: 170px;
-    
 }
 .section3div {
     width: 300px;
@@ -118,7 +114,6 @@ p{
     border-radius: 30px;
     margin-bottom: 130px;
     background-blend-mode: multiply;
-    /* background-color: #c8c8d1; */
     background-color: #538053;
 }
 .inquiry {
@@ -126,7 +121,6 @@ p{
     margin: 5%;
     color: #f1ebea;
 }
-
 .lets_chat {
     text-align: right;
     margin-left: 75%;
@@ -134,9 +128,6 @@ p{
 .chat {
     display: block;
     width: 113px;
-    /* margin-right: 22%; */
-    /* margin-top: 45%; */
-    /* margin: 35%; */
     padding: 8%;
     margin-top: 23%;
     font-size: large;
@@ -147,6 +138,27 @@ p{
     background-image: linear-gradient(45deg, #b09e95, #8782e5);
     text-decoration: none;
 }
+#body {
+    width: 80%;
+    height: 160px;
+    height: 400;
+    margin: 0 auto;
+}
+.social_area {
+    list-style-type: none;
+    margin-left: 36%;
+    margin-bottom: 29px;
+    color: #797a34;
+    text-shadow: 0px 11px 10px rgb(196 144 26 / 80%);
+}
+.social_area li{
+    display:inline-block;
+}
+.social_area img{
+    width: 60px;
+    height:60px;
+    margin-right: 27px;
+}
 .footer p {
     text-align: center;
     padding-bottom: 0px;
@@ -154,11 +166,9 @@ p{
     background-color: rgb(126, 123, 111);
     padding: 10px 20px;
     background-image: linear-gradient( #ebf2f3, #8d8dae);
+    font-weight: 250;
 }
 footer a{
-    font-weight: bold;
+    font-weight:350;
+    text-decoration: none;
 }
-
-/*
-**section -height: 500px;
-*background-color: linear-gradient(45deg,rgb(231, 197, 197),rgb(27, 31, 27),);
