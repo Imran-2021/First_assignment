@@ -172,3 +172,13 @@ footer a{
     font-weight:350;
     text-decoration: none;
 }
+::-webkit-scrollbar{
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#f80505);
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#0a19ec);
+  }
